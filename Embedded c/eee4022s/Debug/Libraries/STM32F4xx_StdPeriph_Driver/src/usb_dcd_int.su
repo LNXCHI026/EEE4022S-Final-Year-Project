@@ -1,0 +1,13 @@
+usb_dcd_int.c:209:10:USBD_OTG_ISR_Handler	32	static
+usb_dcd_int.c:346:17:DCD_HandleResume_ISR	32	static
+usb_dcd_int.c:382:17:DCD_HandleUSBSuspend_ISR	32	static
+usb_dcd_int.c:423:17:DCD_HandleInEP_ISR	32	static
+usb_dcd_int.c:492:17:DCD_HandleOutEP_ISR	32	static
+usb_dcd_int.c:564:17:DCD_HandleSof_ISR	24	static
+usb_dcd_int.c:585:17:DCD_HandleRxStatusQueueLevel_ISR	32	static
+usb_dcd_int.c:638:17:DCD_WriteEmptyTxFifo	32	static
+usb_dcd_int.c:690:17:DCD_HandleUsbReset_ISR	48	static
+usb_dcd_int.c:765:17:DCD_HandleEnumDone_ISR	24	static
+usb_dcd_int.c:805:17:DCD_IsoINIncomplete_ISR	24	static
+usb_dcd_int.c:826:17:DCD_IsoOUTIncomplete_ISR	24	static
+usb_dcd_int.c:845:17:DCD_ReadDevInEP	32	static

@@ -1,0 +1,13 @@
+usb_dcd.c:91:6:DCD_Init	24	static
+usb_dcd.c:155:10:DCD_EP_Open	24	static
+usb_dcd.c:194:10:DCD_EP_Close	24	static
+usb_dcd.c:221:12:DCD_EP_PrepareRx	32	static
+usb_dcd.c:261:11:DCD_EP_Tx	32	static
+usb_dcd.c:296:11:DCD_EP_Stall	24	static
+usb_dcd.c:323:11:DCD_EP_ClrStall	24	static
+usb_dcd.c:350:11:DCD_EP_Flush	16	static
+usb_dcd.c:372:7:DCD_EP_SetAddress	24	static
+usb_dcd.c:385:7:DCD_DevConnect	24	static
+usb_dcd.c:403:7:DCD_DevDisconnect	24	static
+usb_dcd.c:423:10:DCD_GetEPStatus	24	static
+usb_dcd.c:450:6:DCD_SetEPStatus	32	static

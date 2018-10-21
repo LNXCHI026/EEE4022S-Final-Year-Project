@@ -1,0 +1,4 @@
+tm_stm32f4_timer_properties.c:21:30:TM_TIMER_PROPERTIES_GetTimerProperties	32	static
+tm_stm32f4_timer_properties.c:99:30:TM_TIMER_PROPERTIES_GenerateDataForWorkingFrequency	32	static
+tm_stm32f4_timer_properties.c:151:30:TM_TIMER_PROPERTIES_EnableClock	16	static
+tm_stm32f4_timer_properties.c:227:30:TM_TIMER_PROPERTIES_DisableClock	16	static

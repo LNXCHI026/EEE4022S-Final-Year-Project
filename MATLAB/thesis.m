@@ -1,0 +1,30 @@
+%% spectrogram
+load('thesis.mat');
+pause(2);
+[s,f,t,p] = Spectro();
+x=10*log10(p);
+c=343;
+fc=12e3;
+v=(f.*(c/fc))-c;
+subplot(3,1,1);imagesc(t,v,x);colorbar;colormap('bone');set(gca,'YDir','normal');
+ylabel('Velocity (m/s)');
+xlabel('Time (s)');
+title('Doppler Spectrogram fingers spraying water motion consistency test 1');
+hold on;
+m=(meanfreq(p,v)+medfreq(p,v))/2;
+m(isnan(m))=0;
+m=filloutliers(m,'pchip','movmedian',2000);
+plot(t,m,'m','linewidth',2);
+hold off;
+t=input('Motion: ');
+data{end+1,1}=x;
+data{end,2}=m;
+data{end,3}=t;
+save('thesis','data');
+%% range doppler
+[RangeAxis,VelocityAxis,Rangedoppler_abs1,Rangedoppler_abs2]=RangeDoppler();
+clims=[max(Rangedoppler_abs1(:))-30 max(Rangedoppler_abs1(:))];
+subplot(3,1,1);imagesc(RangeAxis,VelocityAxis,Rangedoppler_abs1,clims);colorbar;colormap('jet');
+ylabel('Velocity (cm/s)');
+xlabel('Range (m)');
+title('Range-Doppler 1m consistancy test 1');

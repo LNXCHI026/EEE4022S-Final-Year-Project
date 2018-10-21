@@ -1,0 +1,9 @@
+usbd_cdc_core.c:429:17:usbd_cdc_Init	24	static
+usbd_cdc_core.c:475:17:usbd_cdc_DeInit	16	static
+usbd_cdc_core.c:503:17:usbd_cdc_Setup	24	static
+usbd_cdc_core.c:603:17:usbd_cdc_EP0_RxReady	16	static
+usbd_cdc_core.c:624:17:usbd_cdc_DataIn	24	static
+usbd_cdc_core.c:671:17:usbd_cdc_DataOut	24	static
+usbd_cdc_core.c:698:17:usbd_cdc_SOF	16	static
+usbd_cdc_core.c:720:13:Handle_USBAsynchXfer	24	static
+usbd_cdc_core.c:785:18:USBD_cdc_GetCfgDesc	16	static

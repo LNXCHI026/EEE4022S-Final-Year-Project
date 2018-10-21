@@ -1,0 +1,12 @@
+tm_stm32f4_usb_vcp.c:33:19:TM_USB_VCP_Init	16	static
+tm_stm32f4_usb_vcp.c:57:9:TM_USB_VCP_BufferEmpty	4	static
+tm_stm32f4_usb_vcp.c:61:9:TM_USB_VCP_BufferFull	4	static
+tm_stm32f4_usb_vcp.c:65:9:TM_USB_VCP_FindCharacter	24	static
+tm_stm32f4_usb_vcp.c:89:19:TM_USB_VCP_Getc	16	static
+tm_stm32f4_usb_vcp.c:111:19:TM_USB_VCP_Putc	24	static
+tm_stm32f4_usb_vcp.c:121:19:TM_USB_VCP_Puts	16	static
+tm_stm32f4_usb_vcp.c:130:19:TM_USB_VCP_Send	16	static
+tm_stm32f4_usb_vcp.c:138:10:TM_USB_VCP_Gets	24	static
+tm_stm32f4_usb_vcp.c:170:19:TM_INT_USB_VCP_AddReceived	16	static
+tm_stm32f4_usb_vcp.c:191:19:TM_USB_VCP_GetStatus	4	static
+tm_stm32f4_usb_vcp.c:198:19:TM_USB_VCP_GetSettings	16	static

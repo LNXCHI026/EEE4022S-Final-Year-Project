@@ -1,0 +1,8 @@
+usbd_usr.c:49:6:USBD_USR_Init	4	static
+usbd_usr.c:53:6:USBD_USR_DeviceReset	16	static
+usbd_usr.c:57:6:USBD_USR_DeviceConfigured	4	static
+usbd_usr.c:61:6:USBD_USR_DeviceSuspended	4	static
+usbd_usr.c:65:6:USBD_USR_DeviceResumed	4	static
+usbd_usr.c:69:6:USBD_USR_DeviceConnected	4	static
+usbd_usr.c:73:6:USBD_USR_DeviceDisconnected	4	static
+usbd_usr.c:77:19:USBD_User_GetStatus	4	static

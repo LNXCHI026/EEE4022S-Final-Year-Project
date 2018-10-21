@@ -1,0 +1,14 @@
+usbd_req.c:148:14:USBD_StdDevReq	24	static
+usbd_req.c:199:14:USBD_StdItfReq	24	static
+usbd_req.c:236:14:USBD_StdEPReq	24	static
+usbd_req.c:366:13:USBD_GetDescriptor	24	static
+usbd_req.c:502:13:USBD_SetAddress	24	static
+usbd_req.c:544:13:USBD_SetConfig	16	static
+usbd_req.c:613:13:USBD_GetConfig	16	static
+usbd_req.c:653:13:USBD_GetStatus	16	static
+usbd_req.c:693:13:USBD_SetFeature	24	static
+usbd_req.c:750:13:USBD_ClrFeature	16	static
+usbd_req.c:779:6:USBD_ParseSetupRequest	16	static
+usbd_req.c:800:6:USBD_CtlError	16	static
+usbd_req.c:818:6:USBD_GetString	32	static
+usbd_req.c:842:16:USBD_GetLen	24	static

@@ -1,0 +1,2 @@
+tm_stm32f4_dac.c:21:6:TM_DAC_Init	48	static
+tm_stm32f4_dac.c:55:6:TM_DAC_SetValue	16	static
